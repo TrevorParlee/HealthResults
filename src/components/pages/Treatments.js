@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     width: 300,
-    height: 425,
+
     margin: 20,
   },
 
@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     fontSize: 20,
   },
   pos: {
-    marginBottom: 12,
+    margin: 12,
   },
   media: {
     height: 140,
@@ -58,7 +58,11 @@ function Treatments() {
                   Pain Problems
                 </Typography>
 
-                <Typography variant='body2' component='p'>
+                <Typography
+                  variant='body2'
+                  component='p'
+                  style={{ margin: 20 }}
+                >
                   <ul>
                     <li>Back pain</li>
                     <li>Neck pain</li>
@@ -91,7 +95,11 @@ function Treatments() {
                   General Wellness / Anti-aging
                 </Typography>
 
-                <Typography variant='body2' component='p'>
+                <Typography
+                  variant='body2'
+                  component='p'
+                  style={{ margin: 20 }}
+                >
                   <ul>
                     <li>Anxiety / Stress</li>
                     <li>Weight loss</li>
@@ -110,72 +118,6 @@ function Treatments() {
             </CardActionArea>
           </Card>
         </Grid>
-
-        <Grid item>
-          <Card className={classes.root}>
-            <CardActionArea>
-              <CardContent>
-                <Typography className={classes.title} gutterBottom>
-                  Digestive Disorders
-                </Typography>
-
-                <Typography variant='body2' component='p'>
-                  <ul>
-                    <li>Constipation</li>
-                    <li>Diarrhea</li>
-                    <li>Hemorrhoids</li>
-                    <li>Heartburn / GERDS</li>
-                    <li>Irritable Bowel Syndrome (IBS)</li>
-                    <li>Gas / Bloating / Cramping</li>
-                  </ul>
-                </Typography>
-                <br></br>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </Grid>
-        <Grid item>
-          <Card className={classes.root}>
-            <CardActionArea>
-              <CardContent>
-                <Typography className={classes.title} gutterBottom>
-                  Addiction
-                </Typography>
-
-                <Typography variant='body2' component='p'>
-                  <ul>
-                    <li>Smoking</li>
-                    <li>Alcohol dependence</li>
-                    <li>Substance abuse</li>
-                  </ul>
-                </Typography>
-                <br></br>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </Grid>
-        <Grid item>
-          <Card className={classes.root}>
-            <CardActionArea>
-              <CardContent>
-                <Typography className={classes.title} gutterBottom>
-                  Respiratory Issues
-                </Typography>
-
-                <Typography variant='body2' component='p'>
-                  <ul>
-                    <li>Asthma</li>
-                    <li>Allergies</li>
-                    <li>Chronic sinusitis</li>
-                    <li>Common cold / Flu</li>
-                    <li>Low immunity / Susceptibility to catching cold</li>
-                  </ul>
-                </Typography>
-                <br></br>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </Grid>
         <Grid item>
           <Card className={classes.root}>
             <CardActionArea>
@@ -184,7 +126,11 @@ function Treatments() {
                   Reproductive Health
                 </Typography>
 
-                <Typography variant='body2' component='p'>
+                <Typography
+                  variant='body2'
+                  component='p'
+                  style={{ margin: 20 }}
+                >
                   <ul>
                     <li>Infertility</li>
                     <li>Boost IVF success</li>
@@ -211,10 +157,92 @@ function Treatments() {
             <CardActionArea>
               <CardContent>
                 <Typography className={classes.title} gutterBottom>
+                  Digestive Disorders
+                </Typography>
+
+                <Typography
+                  variant='body2'
+                  component='p'
+                  style={{ margin: 20 }}
+                >
+                  <ul>
+                    <li>Constipation</li>
+                    <li>Diarrhea</li>
+                    <li>Hemorrhoids</li>
+                    <li>Heartburn / GERDS</li>
+                    <li>Irritable Bowel Syndrome (IBS)</li>
+                    <li>Gas / Bloating / Cramping</li>
+                  </ul>
+                </Typography>
+                <br></br>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        <Grid item>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardContent>
+                <Typography className={classes.title} gutterBottom>
+                  Addiction
+                </Typography>
+
+                <Typography
+                  variant='body2'
+                  component='p'
+                  style={{ margin: 20 }}
+                >
+                  <ul>
+                    <li>Smoking</li>
+                    <li>Alcohol dependence</li>
+                    <li>Substance abuse</li>
+                  </ul>
+                </Typography>
+                <br></br>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        <Grid item>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardContent>
+                <Typography className={classes.title} gutterBottom>
+                  Respiratory Issues
+                </Typography>
+
+                <Typography
+                  variant='body2'
+                  component='p'
+                  style={{ margin: 20 }}
+                >
+                  <ul>
+                    <li>Asthma</li>
+                    <li>Allergies</li>
+                    <li>Chronic sinusitis</li>
+                    <li>Common cold / Flu</li>
+                    <li>Low immunity / Susceptibility to catching cold</li>
+                  </ul>
+                </Typography>
+                <br></br>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </Grid>
+
+        <Grid item>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardContent>
+                <Typography className={classes.title} gutterBottom>
                   Recovery
                 </Typography>
 
-                <Typography variant='body2' component='p'>
+                <Typography
+                  variant='body2'
+                  component='p'
+                  style={{ margin: 20 }}
+                >
                   <ul>
                     <li>Stroke rehabilitation</li>
                     <li>Chemotherapy / radiation side effects</li>
