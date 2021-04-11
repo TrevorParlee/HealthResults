@@ -1,0 +1,25 @@
+.body {
+  background-image: url('../../images/smallerimg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutMe {
+  color: aliceblue;
+  font-size: 20px;
+  background: rgb(10, 149, 230, 0.9);
+  min-width: 275px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.testimonials {
+  color: aliceblue;
+  font-size: 20px;
+  background: rgb(86, 191, 251);
+  background-size: cover;
+  width: 100%;
+}
+.reviewGrid {
+  width: 100%;
+}

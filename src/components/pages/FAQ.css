@@ -1,0 +1,18 @@
+.faqTitle {
+  background: rgb(10, 149, 230, 0.3);
+  padding: 15px;
+}
+
+.faqText {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.faqQuestions {
+  padding: 15px;
+}
+
+.faqGrid {
+  background: rgb(10, 149, 230, 0.3);
+  padding: 15px;
+}
