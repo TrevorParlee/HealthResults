@@ -1,11 +1,21 @@
-.image {
-  width: 300px;
+.homeAbout {
+  padding: 20px;
   margin: 10px;
+  justify-content: center;
+  align-items: center;
+  min-width: 275px;
+}
+
+.aboutMe {
+  color: aliceblue;
+  font-size: 20px;
+  background: rgb(10, 149, 230, 0.9);
+  min-width: 275px;
+  max-width: 275px;
 }
 
 @media screen and (max-width: 400px) {
   .image {
-    width: 50%;
-    margin-left: 20%;
+    max-width: 275px;
   }
 }

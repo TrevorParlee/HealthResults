@@ -6,9 +6,10 @@ import './HomeImage.css';
 
 function HomeImage() {
   return (
-    <div className='homeImage'>
-      <Grid container direction='row' alignItems='center' justify='center'>
-        <Grid item>
+    <Grid container direction='row' alignItems='center' justify='center'>
+      <Grid item>
+        <div className='homeImg'>
+          {/* <img className='img' src={image} /> */}
           <blockquote>
             <p>
               <strong>If this is coffee,</strong> please bring me some tea;{' '}
@@ -16,9 +17,9 @@ function HomeImage() {
             </p>
             <cite>Abraham Lincoln</cite>
           </blockquote>
-        </Grid>
+        </div>
       </Grid>
-    </div>
+    </Grid>
   );
 }
 

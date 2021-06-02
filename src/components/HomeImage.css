@@ -1,10 +1,10 @@
-.homeImage {
+/* .homeImage {
   background-image: url('../images/smallerimg.jpg');
   background-position: initial;
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 0;
-}
+} */
 
 /* body {
   height: 100vh;
@@ -14,12 +14,24 @@
   align-items: center;
 } */
 
+/* img {
+  position: relative;
+  justify-items: center;
+  z-index: 1;
+  width: 100%;
+} */
+.homeImg {
+  min-width: 275px;
+}
 blockquote {
   background-color: rgb(240, 248, 255, 0.5);
+  background-image: url('../images/smallerimg.jpg');
   color: rgb(57, 129, 212);
   font-family: Tahoma, sans-serif;
   font-size: 40px;
-  width: 60%;
+  width: 100%;
+  max-width: 1400px;
+  min-width: 275px;
   margin: 0 auto;
   padding-bottom: 30px;
   padding-left: 70px;
@@ -38,9 +50,9 @@ blockquote p::before,
 blockquote p::after {
   content: '“';
   font-family: Georgia;
-  font-size: 8rem;
+  font-size: 4rem;
   margin: -2rem 0 0 -4rem;
-  position: absolute;
+
   opacity: 0.9;
 }
 
@@ -54,13 +66,17 @@ blockquote cite {
 }
 
 @media screen and (max-width: 960px) {
+  .homeImg {
+    min-width: 275px;
+  }
   blockquote {
     color: rgb(57, 129, 212);
     font-family: Tahoma, sans-serif;
     font-size: 15px;
-    width: 60%;
+
     margin: 0 auto;
     padding-bottom: 25px;
+    min-width: 275px;
   }
   blockquote h1 {
     font-size: 2rem;
