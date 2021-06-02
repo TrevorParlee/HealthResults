@@ -24,13 +24,13 @@
   min-width: 275px;
 }
 blockquote {
-  background-color: rgb(240, 248, 255, 0.5);
+  background-size: cover;
   background-image: url('../images/smallerimg.jpg');
   color: rgb(57, 129, 212);
   font-family: Tahoma, sans-serif;
   font-size: 40px;
   width: 100%;
-  max-width: 1400px;
+
   min-width: 275px;
   margin: 0 auto;
   padding-bottom: 30px;
